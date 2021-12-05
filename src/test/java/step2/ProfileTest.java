@@ -30,6 +30,7 @@ class ProfileTest {
 
         // When
         boolean matches = profile.matches(criteria);
+
         // Then
         assertFalse(matches);
     }
